@@ -56,7 +56,7 @@ body {
     background-repeat: no-repeat;
 }
 
- * {
+  {
     outline: .1rem;
     outline-color: blue;
     outline-style: solid;
@@ -106,8 +106,10 @@ img {
 }
 
 #top {
-    background-color: grey;
+    background-color: rgba(8, 232, 255, 0.82);
     flex: auto;
+    padding-top: 8em;
+    padding-bottom: 3em;
 }
 
 #middle {
@@ -116,11 +118,15 @@ img {
     flex-direction: column;
     flex: auto;
     gap: 20px;
+    padding-bottom: 35px;
 }
 
 #bottom {
-    background-color: grey;
+    background-color: rgba(8, 232, 255, 0.82);
     flex: auto;
+    padding-top: 30px;
+    padding-bottom: 8em;
+    box-shadow: 0px -3px rgba(79, 79, 79, 0.46);
 }
 
 em {
@@ -129,8 +135,7 @@ em {
 
 #inputContainer {
     display: flex;
-    gap: 16px;
-    justify-content: space-around;
+    gap: 30px;
 }
 
 .leftInput {
@@ -145,4 +150,45 @@ em {
 
 input {
     width: 20em;
+}
+
+#top, 
+#middle, 
+#bottom {
+    padding-left: 20px;
+}
+
+button {
+    margin-bottom: 25px;
+}
+
+#hook {
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#hookQuote {
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+}
+
+label {
+    font-family: 'Optima', 'sans-serif';
+    font-size: .8em;
+}
+
+input:hover,
+input:focus {
+    border-style: solid;
+    border-color: palevioletred;
+}
+
+a {
+    
 }
